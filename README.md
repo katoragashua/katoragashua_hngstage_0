@@ -17,7 +17,7 @@ This is a simple Node.js application that returns a the basic information of the
 https://katoragashua-hngstage-0.vercel.app/   
 
 ### API 
-https://katoragashua-hngstage-0.vercel.app/katoragashua
+https://katoragashua-hngstage-0.vercel.app/api/v1/katoragashua
 
 #### Example Response
 {

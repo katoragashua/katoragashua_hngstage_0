@@ -13,11 +13,11 @@ app.get("/", (req, res) => {
   res
     .status(200)
     .send(
-      `<h1>Welcome to my HNG Internship Stage 0 assignment Page.<br/>Click <a href="/katoragashua">here</a> to visit the assignment page. </h1>`
+      `<h1>Welcome to my HNG Internship Stage 0 assignment Page.<br/>Click <a href="/api/v1/katoragashua">here</a> to visit the assignment page. </h1>`
     );
 });
 
-app.get("/katoragashua", (req, res) => {
+app.get("/api/v1/katoragashua", (req, res) => {
   res.status(200).json({
     email: "katoragashua@gmail.com",
     current_datetime: new Date().toISOString(),
